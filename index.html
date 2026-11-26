@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Огонёк — быстрое питание с 2019 года</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a href="index.html" class="logo" aria-label="Огонёк — на главную">
+        <img src="images/logo.png" alt="Огонёк">
+    </a>
+
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav">
+        <a href="index.html">Главная</a>
+        <a href="menu.html">Меню</a>
+        <a href="contacts.html">Заказ</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <img class="hero-bg" src="images/hero.jpg" alt="Огонёк">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <p class="hero-eyebrow">Быстрое питание с 2019 года</p>
+        <h1>Быстро. <span>Шустро.</span> С огонька.</h1>
+        <p class="hero-lead">Бургеры на гриле, шаурма на открытом огне и домашние лимонады. Свежие ингредиенты для любимых покупателей.</p>
+        <a href="menu.html" class="btn-order btn-hero">Смотреть меню</a>
+    </div>
+</section>
+
+<main>
+    <section class="menu-section">
+        <h2>Хиты <span>меню</span></h2>
+        <div class="cards">
+            <article class="card">
+                <div class="card-photo"><img src="images/burger-ugol.jpg" alt="Угольный бургер"></div>
+                <div class="card-body">
+                    <h3>Угольный бургер</h3>
+                    <p class="desc">Мраморная говядина, чеддер, лук на гриле, угольный соус</p>
+                    <p class="price">340 ₽</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-photo"><img src="images/shaurma-chicken.jpg" alt="Шаурма с курицей"></div>
+                <div class="card-body">
+                    <h3>Шаурма с курицей</h3>
+                    <p class="desc">Курица на гриле, овощи, чесночный соус, лаваш</p>
+                    <p class="price">260 ₽</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-photo"><img src="images/lemonade-citrus.jpg" alt="Лимонад Цитрус"></div>
+                <div class="card-body">
+                    <h3>Лимонад «Цитрус»</h3>
+                    <p class="desc">Лимон, апельсин, мята, минеральная вода, кубики льда</p>
+                    <p class="price">180 ₽</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-photo">
+            <img src="images/interior-1.jpg" alt="Интерьер">
+        </div>
+        <div class="about-text">
+            <h2>О <span>заведении</span></h2>
+            <p>Открылись в 2019 году как небольшая точка у метро: одна витрина, две кассы и один гриль. Сегодня «Огонёк» — это три филиала, собственная кухня и доставка по всему городу.</p>
+            <p>Свежие продукты, понятный состав и стабильный вкус, который не подведёт ни в обед, ни после работы.</p>
+            <div class="facts">
+                <div class="fact"><span>01</span> Три филиала</div>
+                <div class="fact"><span>02</span> С 10:00 до 23:00</div>
+                <div class="fact"><span>03</span> Своя кухня и гриль</div>
+                <div class="fact"><span>04</span> Доставка от 30 минут</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-inner">
+            <h2>Голодны? <span>Оформите заказ</span></h2>
+            <p>Доставим по городу от 30 минут. Оплата при получении.</p>
+            <a href="contacts.html" class="btn-order">Оформить заказ</a>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div>
+            <a href="index.html" class="footer-logo" aria-label="Огонёк — на главную">
+                <img src="images/logo.png" alt="Огонёк">
+            </a>
+            <p class="footer-tagline">Еда, к которой возвращаются с 2019 года.</p>
+        </div>
+        <div>
+            <h4>Адреса</h4>
+            <p>Первомайская, 42 ~ 10:00–23:00</p>
+            <p>Южакова, 3 ~ 10:00–23:00</p>
+            <p>Казакова, 13 ~ 08:00–23:00</p>
+        </div>
+        <div>
+            <h4>Связь</h4>
+            <p><a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+            <p><a href="mailto:hello@ogonjok.example">hello@ogonjok.example</a></p>
+            <p>Доставка от 30 минут</p>
+        </div>
+        <div>
+            <h4>Разделы</h4>
+            <p><a href="index.html">Главная</a></p>
+            <p><a href="menu.html">Меню</a></p>
+            <p><a href="contacts.html">Заказ</a></p>
+        </div>
+    </div>
+    <div class="footer-bottom">© «Огонёк», 2019–2026</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню — Огонёк</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a href="index.html" class="logo" aria-label="Огонёк — на главную">
+        <img src="images/logo.png" alt="Огонёк">
+    </a>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav">
+        <a href="index.html">Главная</a>
+        <a href="menu.html">Меню</a>
+        <a href="contacts.html">Заказ</a>
+    </nav>
+</header>
+
+<main>
+    <section class="page-head">
+        <h1>Наше <span>меню</span></h1>
+        <p>Цены указаны без учёта доставки.</p>
+    </section>
+
+    <nav class="menu-tabs">
+        <a href="#burgers" class="menu-tab">Бургеры</a>
+        <a href="#shaurma" class="menu-tab">Шаурма и роллы</a>
+        <a href="#snacks" class="menu-tab">Закуски</a>
+        <a href="#drinks" class="menu-tab">Напитки</a>
+        <a href="#desserts" class="menu-tab">Десерты</a>
+    </nav>
+
+    <section class="menu-section" id="burgers">
+        <h2>Бургеры</h2>
+        <div class="cards">
+            <article class="card">
+                <div class="card-photo"><img src="images/burger-classic.jpg" alt="Классический"></div>
+                <div class="card-body">
+                    <h3>Классический</h3>
+                    <p class="desc">Говядина, салат, помидор, солёный огурец, соус.</p>
+                    <p class="price">290 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/burger-ugol.jpg" alt="Угольный"></div>
+                <div class="card-body">
+                    <h3>Угольный</h3>
+                    <p class="desc">Мраморная говядина, чеддер, лук на гриле, угольный соус.</p>
+                    <p class="price">340 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/burger-chicken.jpg" alt="Куриный"></div>
+                <div class="card-body">
+                    <h3>Куриный</h3>
+                    <p class="desc">Куриная котлета на гриле, соус цезарь, салат айсберг.</p>
+                    <p class="price">270 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/burger-cheese.jpg" alt="Чизбургер"></div>
+                <div class="card-body">
+                    <h3>Чизбургер</h3>
+                    <p class="desc">Говядина, двойной чеддер, лук, кетчуп.</p>
+                    <p class="price">310 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/burger-veggie.jpg" alt="Вегетарианский"></div>
+                <div class="card-body">
+                    <h3>Вегетарианский</h3>
+                    <p class="desc">Котлета из нута, свежие овощи, соус тахини.</p>
+                    <p class="price">250 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/burger-double.jpg" alt="Двойной"></div>
+                <div class="card-body">
+                    <h3>Двойной</h3>
+                    <p class="desc">Две котлеты, двойной чеддер, бекон, лук на гриле.</p>
+                    <p class="price">420 ₽</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="menu-section" id="shaurma">
+        <h2>Шаурма и роллы</h2>
+        <div class="cards">
+            <article class="card">
+                <div class="card-photo"><img src="images/shaurma-chicken.jpg" alt="Шаурма с курицей"></div>
+                <div class="card-body">
+                    <h3>Шаурма с курицей</h3>
+                    <p class="desc">Курица на гриле, овощи, чесночный соус, лаваш.</p>
+                    <p class="price">260 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/shaurma-beef.jpg" alt="Шаурма с говядиной"></div>
+                <div class="card-body">
+                    <h3>Шаурма с говядиной</h3>
+                    <p class="desc">Говядина, перец чили, острый соус, свежие овощи.</p>
+                    <p class="price">310 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/roll-caesar.jpg" alt="Ролл Цезарь"></div>
+                <div class="card-body">
+                    <h3>Ролл «Цезарь»</h3>
+                    <p class="desc">Курица, салат романо, пармезан, соус цезарь.</p>
+                    <p class="price">280 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/roll-salmon.jpg" alt="Ролл с лососем"></div>
+                <div class="card-body">
+                    <h3>Ролл с лососем</h3>
+                    <p class="desc">Лосось, огурец, сливочный сыр, рис.</p>
+                    <p class="price">350 ₽</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="menu-section" id="snacks">
+        <h2>Закуски</h2>
+        <div class="cards">
+            <article class="card">
+                <div class="card-photo"><img src="images/fries.jpg" alt="Картофель фри"></div>
+                <div class="card-body">
+                    <h3>Картофель фри</h3>
+                    <p class="desc">С морской солью, соус на выбор.</p>
+                    <p class="price">150 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/potato-wedges.jpg" alt="Картофель по-деревенски"></div>
+                <div class="card-body">
+                    <h3>Картофель по-деревенски</h3>
+                    <p class="desc">С пряными травами и морской солью.</p>
+                    <p class="price">170 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/onion-rings.jpg" alt="Луковые кольца"></div>
+                <div class="card-body">
+                    <h3>Луковые кольца</h3>
+                    <p class="desc">В хрустящей панировке, соус на выбор.</p>
+                    <p class="price">160 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/nuggets.jpg" alt="Наггетсы"></div>
+                <div class="card-body">
+                    <h3>Наггетсы, 6 шт</h3>
+                    <p class="desc">Куриное филе в панировке.</p>
+                    <p class="price">190 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/cheese-sticks.jpg" alt="Сырные палочки"></div>
+                <div class="card-body">
+                    <h3>Сырные палочки</h3>
+                    <p class="desc">Моцарелла в панировке, соус маринара.</p>
+                    <p class="price">210 ₽</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="menu-section" id="drinks">
+        <h2>Напитки</h2>
+        <div class="cards">
+            <article class="card">
+                <div class="card-photo"><img src="images/lemonade-citrus.jpg" alt="Лимонад Цитрус"></div>
+                <div class="card-body">
+                    <h3>Лимонад «Цитрус»</h3>
+                    <p class="desc">Лимон, апельсин, мята, вода, кубики льда.</p>
+                    <p class="price">180 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/lemonade-berry.jpg" alt="Лимонад Ягода"></div>
+                <div class="card-body">
+                    <h3>Лимонад «Ягода»</h3>
+                    <p class="desc">Смородина, малина, мята, вода.</p>
+                    <p class="price">190 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/milkshake.jpg" alt="Молочный коктейль"></div>
+                <div class="card-body">
+                    <h3>Молочный коктейль</h3>
+                    <p class="desc">Ваниль или шоколад на выбор.</p>
+                    <p class="price">210 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/americano.jpg" alt="Американо"></div>
+                <div class="card-body">
+                    <h3>Американо</h3>
+                    <p class="desc">Зерно собственной обжарки.</p>
+                    <p class="price">120 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/cappuccino.jpg" alt="Капучино"></div>
+                <div class="card-body">
+                    <h3>Капучино</h3>
+                    <p class="desc">Эспрессо с молочной пенкой.</p>
+                    <p class="price">160 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/latte.jpg" alt="Латте"></div>
+                <div class="card-body">
+                    <h3>Латте</h3>
+                    <p class="desc">Эспрессо с молоком.</p>
+                    <p class="price">180 ₽</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="menu-section" id="desserts">
+        <h2>Десерты</h2>
+        <div class="cards">
+            <article class="card">
+                <div class="card-photo"><img src="images/cheesecake.jpg" alt="Чизкейк"></div>
+                <div class="card-body">
+                    <h3>Чизкейк</h3>
+                    <p class="desc">Классический, с ягодным соусом.</p>
+                    <p class="price">220 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/brownie.jpg" alt="Брауни"></div>
+                <div class="card-body">
+                    <h3>Брауни</h3>
+                    <p class="desc">Тёмный шоколад, грецкий орех.</p>
+                    <p class="price">200 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/ice-cream.jpg" alt="Мороженое"></div>
+                <div class="card-body">
+                    <h3>Мороженое</h3>
+                    <p class="desc">Три шарика на выбор.</p>
+                    <p class="price">120 ₽</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-photo"><img src="images/muffin.jpg" alt="Маффин"></div>
+                <div class="card-body">
+                    <h3>Маффин</h3>
+                    <p class="desc">Шоколадный или ванильный.</p>
+                    <p class="price">150 ₽</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-inner">
+            <h2>Выбрали? <span>Оформите доставку</span></h2>
+            <p>На странице заказа есть форма — перезвоним для подтверждения.</p>
+            <a href="contacts.html" class="btn-order">Оформить заказ</a>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div>
+            <a href="index.html" class="footer-logo"><img src="images/logo.png" alt="Огонёк"></a>
+            <p class="footer-tagline">Еда, к которой возвращаются с 2019 года.</p>
+        </div>
+        <div>
+            <h4>Адреса</h4>
+            <p>Первомайская, 42 ~ 10:00–23:00</p>
+            <p>Южакова, 3 ~ 10:00–23:00</p>
+            <p>Казакова, 13 ~ 08:00–23:00</p>
+        </div>
+        <div>
+            <h4>Связь</h4>
+            <p><a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+            <p><a href="mailto:hello@ogonjok.example">hello@ogonjok.example</a></p>
+        </div>
+        <div>
+            <h4>Разделы</h4>
+            <p><a href="index.html">Главная</a></p>
+            <p><a href="menu.html">Меню</a></p>
+            <p><a href="contacts.html">Заказ</a></p>
+        </div>
+    </div>
+    <div class="footer-bottom">© «Огонёк», 2019–2026</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
